@@ -42,9 +42,9 @@ class Message():
 
 
 if __name__ == '__main__':
-    webhook = 'https://oapi.dingtalk.com/robot/send?access_token=3ad6ce86f476952c6c3f5ff010bfc471a2bcdbd6349db4fe20c2b9984249b9d2'
+    webhook = 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxx'
     dtbot = Message(webhook)
     # at = {"isatall": "true"}
     # dtbot.send_text("This is a text file", **at)
-    text = "### This is a md doc. \n\n > Text format doc \n\n   Text" + "@13926509780"
-    dtbot.send_markdown("MD", text, ['13926509780'])
+    text = "### This is a md doc. \n\n > Text format doc \n\n   Text" + "@13926519781"
+    dtbot.send_markdown("MD", text, ['13926519781'])
