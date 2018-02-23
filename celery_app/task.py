@@ -14,12 +14,7 @@ db = client['jinshuju']
 posts = db.data
 info = db.info
 
-'''info
-{
-    'school': "龙平高中部"，
-    'phone': ['13926509780', '18629132805']
-}
-'''
+
 @app.task
 def push(objectId, token):
 
@@ -48,5 +43,5 @@ def push(objectId, token):
 
 if __name__ == '__main__':
     obid = ''
-    token = '3ad6ce86f476952c6c3f5ff010bfc471a2bcdbd6349db4fe20c2b9984249b9d2'
+    token = 'xxxx'
     push(obid, token)
